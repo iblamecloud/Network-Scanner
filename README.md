@@ -1,10 +1,6 @@
 # Network-Scanner
 This Python network scanner uses ARP requests to identify devices on a local network. It sends requests across a specified IP range and returns a list of active devices with their IP addresses, MAC addresses, and associated manufacturers, retrieved through an external API.
 
-# Network Scanner with MAC Vendor Lookup
-
-This Python script scans a specified IP range in a local network and retrieves the associated MAC addresses and their corresponding vendors. The results are displayed in a user-friendly format, showing each device's IP address, MAC address, and vendor name.
-
 ## Features:
 - Scans an IP range using ARP requests.
 - Retrieves MAC address vendors using the MacVendors API.
